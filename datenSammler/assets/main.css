@@ -30,7 +30,7 @@ p {
 /* ------------------------------------------------------- */
 
 button {
-    border: 1px solid #d4a101;
+    border: 1px solid #FFCE42;
     padding: 8px;
     background-color: transparent;
     color: black;
@@ -38,16 +38,17 @@ button {
 }
 
 button:hover {
-    background-color: #d4a101;
+    background-color: #FFCE42;
+    color: white;
 }
 
 button:active {
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 button:disabled {
     opacity: 0.6;
-    border: 1px solid #525252;
+    border: 1px solid #FFCE42;
 }
 
 .ghost-button {
@@ -59,7 +60,7 @@ button:disabled {
 }
 
 .ghost-button.selected {
-    background-color: #d4a101;
+    background-color: #FFCE42;
     color:white;
 }
 
@@ -100,8 +101,13 @@ select {
 
 .center-row-column {
     background-color: #f4f4f4;
-    padding: 20px;
+    padding: 40px;
     margin: 10px;
+    border-radius: 30px;
+
+    box-shadow: 0px 5px 11px 0px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0px 5px 11px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 5px 11px 0px rgba(0,0,0,0.1);
 }
 
 .bottom-row {
@@ -115,7 +121,7 @@ select {
 }
 
 .video-block {
-    border: 1px solid #d4a101;
+    border: 1px solid #FFCE42;
     height: 60vh;
 }
 
@@ -124,7 +130,7 @@ select {
 /* ------------------------------------------------------- */
 
 table tr:first-child td {
-    color: #d4a101;
+    color: #FFCE42;
     font-weight: bold;
 }
 
@@ -171,5 +177,5 @@ table tr:first-child td {
 }
 
 .timerBar {
-    background-color: #d4a101;
+    background-color: #FFCE42;
 }
